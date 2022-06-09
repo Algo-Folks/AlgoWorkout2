@@ -36,6 +36,7 @@
             key={nanoid()} 
             questionID = {i.toString()}
             userID = "1"
+            render = "true"
             name={q.name} 
             link={q.link} 
             level={q.level}
@@ -44,6 +45,7 @@
             companies={q.companies}
             description={q.description}
             showModal={this.showModal}
+            completeQuestion={this.props.completeQuestion}
           />
     });
   

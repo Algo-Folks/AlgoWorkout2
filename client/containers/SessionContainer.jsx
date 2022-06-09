@@ -65,7 +65,7 @@ const SessionContainer = ({
                     <img id="pomodoro" src="../docs/timer.gif" />
                     <Clock startTime={startTime} />
                     <button
-                        class="button1"
+                        className="button1"
                         onClick={(e) => handleStart(questionID, userID)}
                     >
                         START

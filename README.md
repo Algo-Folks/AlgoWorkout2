@@ -170,6 +170,8 @@ Will load some basic data into my database so that it is more useful for the dem
 
 * [4:32pm] Rewinded to be able to show a demo of timestamp appearing, even though method is by questionID instead of sessionID. Given being short on time now, I will prioritize making the following impactful UI changes in my remaining time:
 
+* [5:39pm] Achieved simple conditional rendering for questions on the front end not tied to the user data model.
+
 ---
 
 1. [ ] Click to complete a question in Today's Questions and have it appear in the main container
