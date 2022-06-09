@@ -9,7 +9,8 @@
       modalShow: false,
       modalName: '',
       questionID: null,
-      userID: "1"
+      userID: "1",
+      todayList: []
     };
     this.showModal = this.showModal.bind(this);
     this.hideModal = this.hideModal.bind(this);
