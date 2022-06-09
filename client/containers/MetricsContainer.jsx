@@ -13,9 +13,11 @@ class MetricsContainer extends React.Component {
         <h2>Metrics</h2>
         <div className="outerBox" id="metrics">
           {/* <QuestionsContainer questions={this.props.questions}/> */}
-          <p id='scores'>Total Time: </p>
+          <h4 id='scores'>Total Time: </h4>
+          <p id='scores'>Easy / Medium / Hard: </p>
           {/* // Score: 
           // Easy + Med + Hard */}
+          
         </div>
       </div>
     )

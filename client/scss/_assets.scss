@@ -182,3 +182,26 @@
   .button2:active {
     background: linear-gradient(to right, rgba(0,0,0,0), teal), linear-gradient(to right, rgba(255,0,100,.3), rgba(255,100,127,.2)), linear-gradient(to top right, yellow, rgba(0,0,0,0)), radial-gradient(closest-corner at 20% 80%, yellow, red);;
   }
+
+  .kanban {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: $p1;
+    box-shadow: $highShadow;
+    border-radius: 5px;
+    border: $tertiary;
+    background-color: $tertiary;
+  }
+
+  .pattern {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid rgb(132, 90, 5);
+
+  }
+
+  .pattern img {
+    width: 35px;
+    margin: 5px;
+  }

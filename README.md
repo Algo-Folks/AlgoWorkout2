@@ -172,11 +172,7 @@ Will load some basic data into my database so that it is more useful for the dem
 
 * [5:39pm] Achieved simple conditional rendering for questions on the front end not tied to the user data model.
 
----
-
-1. [ ] Click to complete a question in Today's Questions and have it appear in the main container
-
-2. [ ] Display metrics of some sort in the Metrics Container
+* [6:13pm] Basic demo achieved. Now create slides in last 30 min.
 
 ================================================================
 
