@@ -166,7 +166,15 @@ Will load some basic data into my database so that it is more useful for the dem
 
 * [11:54am] Moving forward: continuing with update functionality for session. 
 
+* [4:21pm] Lost 4.5 hours worth of work due to git rebase/merge conflicts. Transferred to new repo. What a nightmare!
 
+* [4:32pm] Rewinded to be able to show a demo of timestamp appearing, even though method is by questionID instead of sessionID. Given being short on time now, I will prioritize making the following impactful UI changes in my remaining time:
+
+---
+
+1. [ ] Click to complete a question in Today's Questions and have it appear in the main container
+
+2. [ ] Display metrics of some sort in the Metrics Container
 
 ================================================================
 

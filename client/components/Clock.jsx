@@ -20,8 +20,9 @@ class Clock extends React.Component {
         
         <div className="outerBox" id="metrics">
         <h4>Start Time</h4>
+        <br/>
         <h5>{this.props.startTime}</h5>
-        <p id='scores'>Total Time: </p>
+        {/* <p id='scores'>Total Time: </p> */}
         </div>
       </div>
     )

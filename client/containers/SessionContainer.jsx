@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "../scss/_modal.scss";
 import Clock from "../components/Clock.jsx";
 
@@ -14,7 +14,7 @@ const SessionContainer = ({
 
     console.log("id " + questionID);
 
-    let startTime = null;
+    const [startTime, setStartTime] = useState(0);
 
     const handleStart = async (questionID, userID) => {
         console.log("handleStart: " + questionID);
@@ -48,7 +48,8 @@ const SessionContainer = ({
             );
             const data = await response.json();
             console.log("start time: " + data.startTime);
-            return (startTime = data.startTime);
+            setStartTime(data.startTime);
+            return data.startTime;
         } catch (err) {
             console.log(err);
         }
