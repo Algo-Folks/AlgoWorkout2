@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu Light', 'Century Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #393939;
+  }
+  
+  body {
+    padding-top: 2em;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); 
+  }
+
+  h1 {
+    margin-left: 20px; 
+  }
+
+  h2 {
+    color: white;
+    margin-left: 20px;
+  }
+
+  h3 {
+    color: $gray3;
+  }
+
+  #label {
+    color: $gray2;
+  }
+
+  #property {
+    color: $gray2;
+    font-weight: lighter;
+    line-height: 3em;
+  }
+ 
+  #questionLink {
+    color: $primary;
+  }
+
+  #scores {
+    font-size: small;
+  }
+  
+  .outerBox {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: $p1;
+    box-shadow: $highShadow;
+    border-radius: 5px;
+    border: $lightBorder;
+    background-color: $lightGray;
+  }
+  
+  .innerbox {
+    padding: $p1;
+    width: 95%;
+    margin: $p1 auto;
+    border-radius: 5px;
+    box-shadow: $plainShadow;
+    border: $lightBorder;
+    background-color: $lightGray;
+  }
+  
+  .displayBox {
+    overflow: auto;
+    padding-top: $p1;
+    border-radius: 5px;
+    background-color: $lightGray;
+  }
+
+  #metrics {
+  // background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    background-color: rgb(163, 200, 213);
+    box-shadow: none;
+    border-radius: 0px;
+    border: none;
+  }
+  
+  .allAssets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .primary { background-color: $primary; }
+  .secondary { background-color: $secondary; }
+  
+  .questionBox {
+    padding: $p0;
+    padding-right: 25px;
+    margin: $p0;
+    font-size: .8em;
+    border: $lightBorder;
+    border-radius: 5px;
+    box-shadow: $plainShadow;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #header {
+    text-align: center;
+    letter-spacing: .2em;
+    margin-bottom: $p1;
+    margin-left: $p1 important;
+  }
+  
+  #totals {
+    line-height: 1.5em;
+  }
+
+  #pomodoro {
+    width: 300px;
+  }
+  
+  input {
+    margin: $p1;
+  }
+  
+  button {
+    color: rgb(80, 75, 75);
+    font-weight: bold;
+    min-width: 4em;
+    padding: 0.4em 1em;
+    margin: 3px;
+    margin-top: 2em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+   v
+    &:disabled {
+      background-color: #eee;
+      color: #777;
+    }
+  }
+
+  button:hover {
+    background-color: $primary;
+    color: white;
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    transition-duration: 0.5s;
+    cursor: grabbing;
+  }
+
+  .button1 { 
+    background-color: $secondary;
+    padding: 0.8em; 
+    box-shadow: 1px 1px 1px $tertiary;
+  }
+
+  .button2 { 
+    background-color: transparent;
+    float: right;
+    margin-top: -15px;
+    margin-right: -15px;
+    font-size: 15px;
+    border: $tertiary 1px solid;
+  }
+
+  .button2:hover {
+    background-color: transparent;
+    animation: celebrate 2s infinite;
+  }
+
+  .button2::after {
+    content: '✅';
+  }
+
+  .button2:hover::after {
+    content: '🎉';
+  }
+
+  @keyframes celebrate {
+    50% {transform: rotate(360deg) scale(2);}
+  }
+
+  .button2:active {
+    background: linear-gradient(to right, rgba(0,0,0,0), teal), linear-gradient(to right, rgba(255,0,100,.3), rgba(255,100,127,.2)), linear-gradient(to top right, yellow, rgba(0,0,0,0)), radial-gradient(closest-corner at 20% 80%, yellow, red);;
+  }
