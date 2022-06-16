@@ -1,19 +1,29 @@
 # Roadmap & Progress Log
 
+```
+npm run dev
+```
+
+![demo1](/docs/demo1.png)
+
 ### Description:
 https://docs.google.com/document/d/1PuVTBu2CNC6ZLt0P0CWeue1tPP2sP9sweS5I7oEdl7w/edit?usp=sharing
+
 ## MVP Core Features
 1. Function for choosing which problem a user should do next, based on their scores on previous problems across 15 categories.
+
 2. Timer for logging a user’s practice session on a given day.
 
-Presentation:
-https://www.canva.com/design/DAFDJhBV-K8/8tAqo-lQIMRfDDib0COPXQ/view?utm_content=DAFDJhBV-K8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+![demo2](/docs/demo2.png)
 
-DEMO Screenshots:
 
+## Presentation:
+
+![Presentation](/docs/presentation.png)
+
+https://www.canva.com/design/DAFDJhBV-K8/8tAqo-lQIMRfDDib0COPXQ/view?utm_content=DAFDJhBV-K8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebuttongit 
 
 ----------
-# Log
 
 ## Setup:
 * [x] Package.json dependencies. NPM install.
